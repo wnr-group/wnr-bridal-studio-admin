@@ -141,7 +141,7 @@ export default function OrdersPage() {
     return (
       <div className="flex items-center justify-center min-h-[50vh]">
         <div className="animate-pulse flex flex-col items-center gap-2">
-          <span className="font-serif text-lg text-[#B38B5D] tracking-widest uppercase">MEI BRIDAL COUTURE</span>
+          <span className="font-serif text-lg text-[#B38B5D] tracking-widest uppercase">WNR BRIDAL STUDIO</span>
           <span className="text-xs text-zinc-400">Loading Orders...</span>
         </div>
       </div>
