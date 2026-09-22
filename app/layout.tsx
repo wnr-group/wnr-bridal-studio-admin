@@ -28,8 +28,8 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "MEI Admin",
-  description: "MEI Bridal Couture admin dashboard.",
+  title: "WNR Bridal Studio - Admin",
+  description: "WNR Bridal Studio admin dashboard.",
   robots: { index: false, follow: false },
 };
 

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { signIn } from "@/services/auth";
 
@@ -32,11 +33,9 @@ const Login = () => {
       <div className="w-full max-w-[420px] bg-white border border-border px-12 pt-16 pb-14 text-center">
         {/* Logo Section */}
         <div className="flex flex-col items-center select-none">
-          <span className="font-cormorant text-[42px] font-normal leading-none text-gold tracking-wide">
-            MEI
-          </span>
-          <span className="font-inter text-[9px] font-medium tracking-[0.28em] text-gold mt-2">
-            BRIDAL COUTURE
+          <Image src="/images/app-logo.png" alt="WNR Bridal Studio" width={64} height={64} priority className="rounded-full" />
+          <span className="font-inter text-[9px] font-medium tracking-[0.28em] text-gold mt-3">
+            WNR BRIDAL STUDIO
           </span>
         </div>
 

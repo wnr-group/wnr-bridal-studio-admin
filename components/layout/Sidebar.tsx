@@ -50,7 +50,7 @@ export default function Sidebar() {
         {/* Brand Header */}
         <div className='p-8'>
           <h1 className="text-[20px] font-serif tracking-wide text-amber-900 font-medium">
-            MEI Bridal Couture
+            WNR Bridal Studio
           </h1>
           <p className="text-[10px] tracking-widest text-zinc-600 font-bold mt-1">
             ADMIN MANAGEMENT
